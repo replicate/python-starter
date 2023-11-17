@@ -1,0 +1,8 @@
+import replicate
+
+prediction = replicate.run(
+    "{{MODEL_STRING}}",
+    input={{INPUTS}},
+)
+
+print(prediction)
